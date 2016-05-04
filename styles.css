@@ -1,0 +1,162 @@
+.main_up {
+    width:100%;
+    margin:0px auto 0px auto;
+}
+
+.main_down {
+    width:100%;
+    margin:0px auto 0px auto;
+}
+
+.reseaux_left {
+    position:fixed;
+    left:50px;
+    top:40px;
+}
+
+.reseaux_right {
+    position:fixed;
+    right:50px;
+    top:40px;
+}
+
+.reseaux_left img, .reseaux_right img {
+    padding:15px;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    transform: translate(0, -50%);
+    left: 43%;
+}
+
+.logo a {
+    text-decoration:none;
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    font-size:180px;
+    text-align:center;
+}
+
+.nav {
+    height:70px;
+    background: rgba(85, 85, 85, 0.7);
+    position:fixed;
+    bottom: 5px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.nav ul {
+    list-style-type: none;
+    position:absolute;
+    text-align:center;
+    left:5%;
+    right:15%;
+}
+
+.nav li {
+    display:inline;
+    padding:55px;
+}
+
+.nav a {
+    text-decoration:none;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size:27px;
+    font-weight: 200;
+}
+
+.flags {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.flags a {
+    margin: 15px 15px 0px 0px;
+    position:absolute;
+    right: 58px;
+}
+
+.nav a:active {
+    color:grey!important;
+}
+
+/*Thank you to https://css-tricks.com/perfect-full-page-background-image/ for the help on centering the background image!*/
+
+body {
+    background : url(images/background_home.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    border-bottom: solid;
+    border-bottom-color: white;
+    position:absolute;
+    top: 50%;
+    left: 65px;
+    width:100px;
+}
+
+.title p {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size:40px;
+    font-weight: 200;
+}
+
+.content h1 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size:20px;
+    font-weight: 100;
+    transform: rotate(-90deg);
+}
+
+.content ul {
+    list-style-type: none;
+}
+
+.content li {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size:20px;
+    font-weight: 100;
+}
+
+#block1, #block3 {
+    position:absolute;
+    left:50px;
+}
+
+#block2, #block4 {
+    position:absolute;
+    left:50%;
+}
+
+.content table {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    top: 70%;
+    bottom: 200px;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.content th, td {
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
