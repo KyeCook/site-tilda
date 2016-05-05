@@ -1,6 +1,6 @@
 .main_up {
     width:100%;
-    margin:0px auto 0px auto;
+    margin:0px auto 100px auto;
 }
 
 .main_down {
@@ -22,6 +22,10 @@
 
 .reseaux_left img, .reseaux_right img {
     padding:15px;
+}
+
+.reseaux_left a:visited, .reseaux_right a:visited {
+        color: inherit;
 }
 
 .logo {
@@ -99,7 +103,7 @@ body {
     border-bottom: solid;
     border-bottom-color: white;
     position:absolute;
-    top: 45%;
+    top: 300px;
     left: 65px;
     width:100px;
 }
@@ -117,7 +121,7 @@ body {
 }
 
 .content {
-    padding-bottom: 500px;
+    padding-bottom: 300px;
 }
 
 .content h1 {
@@ -224,7 +228,7 @@ body {
     color: grey;
 }
 
-.contact p, .galerie p {
+.contact p, .gallery p {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
@@ -241,32 +245,37 @@ body {
     top: 70%;
 }
 
-/* Gallery */
+.gallery iframe {
+    position: relative;
+    left:25%;
+}
 
-ul.instagram_shots{
+/* Gallery (as seen on www.ko-ko-mo.com*/
+
+ul.shots{
     margin-bottom: 8px;
     text-align: center;
 }
 
-ul.instagram_shots li{
+ul.shots li{
     display: inline-block;
     margin: 0px 24px 24px 0px;
 }
 
-.ie7 ul.instagram_shots li{
+.ie7 ul.shots li{
     display: inline;
     zoom: 1;
 }
 
-ul.instagram_shots li.line_end {
+ul.shots li.line_end {
     margin-right: 0;
 }
 
-.ie7 ul.instagram_shots li.line_end{
+.ie7 ul.shots li.line_end{
     margin-right: 0;
 }
 
-ul.instagram_shots li img{
+ul.shots li img{
     border: 0px solid #000000;
     padding: 0px;
     height:350px;
@@ -275,7 +284,7 @@ ul.instagram_shots li img{
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
-ul.instagram_shots li img:hover{
+ul.shots li img:hover{
     opacity: 1;
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
