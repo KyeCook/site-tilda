@@ -85,16 +85,21 @@ body {
     font-weight: 200;
 }
 
-.flags {
-    float:left;
+.french_flag, .english_flag {
     margin:0;
     padding:0;
 }
 
-.flags a {
+.english_flag a {
     margin: 15px 15px 0px 0px;
     position:absolute;
-    right: 58px;
+    right: 4%;
+}
+
+.french_flag a {
+    margin: 15px 15px 0px 0px;
+    position:absolute;
+    right: 8%
 }
 
 .nav a:active, .nav a:hover {
@@ -111,7 +116,7 @@ body {
     position:absolute;
     top: 35%;
     left: 65px;
-    width:100px;
+    width:94%;
 }
 
 .title p {
@@ -128,6 +133,7 @@ body {
 
 .content {
     padding-bottom: 300px;
+    margin-left:65px;
 }
 
 .content h1 {
@@ -135,7 +141,6 @@ body {
     color:white;
     font-size:20px;
     font-weight: 100;
-    transform: rotate(-90deg);
 }
 
 .content ul {
@@ -178,13 +183,38 @@ body {
     top: 70%;
 }
 
+.bookings {
+    position:absolute;
+    left:50px;
+    top: 70%;
+    float:left;
+}
+
+.actus {
+    position:absolute;
+    left:50px;
+    top: 120%;
+}
+
+.technique {
+    position:absolute;
+    left:50%;
+    top: 120%;
+}
+
+.recording {
+    position:absolute;
+    left:50%;
+    top: 70%;
+}
+
 .content table {
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 20px;
     font-weight: 100;
     position: absolute;
-    top: 70%;
+    top: 60%;
     bottom: 200px;
     width:70%;
     margin-left:15%;
@@ -212,11 +242,13 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-.section-video {
+.video {
+    position: absolute;
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    height: 100%;
+    top: 60%;
+    margin-left: 13%;
+    margin-right: 18%;
 }
 
 .contact a {
