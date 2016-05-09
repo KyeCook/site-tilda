@@ -278,12 +278,6 @@ body {
     margin: 8px;
 }
 
-.contact h1 {
-    position: absolute;
-    left:50px;
-    top: 70%;
-}
-
 .gallery iframe {
     position: relative;
     left:25%;
